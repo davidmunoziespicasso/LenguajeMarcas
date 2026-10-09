@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        let edad1;
+        let edad2;
+        let nombre1;
+        let nombre2;
+        
+        nombre1 = prompt('Dime el primer nombre:');
+        nombre2 = prompt('Dime el segundo nombre:');
+        edad1 = parseInt(prompt('Ingrese la edad del primero:'));
+        edad2 = parseInt(prompt('Ingrese la edad del segundo:'));
+
+        if (edad1 > edad2) {
+            document.write(nombre1 + ' es mayor');
+        } else if (edad1 < edad2) {
+            document.write(nombre2 + ' es mayor');
+        } else {
+            document.write('Ambos tenéis la misma edad');
+        }
+    </script>
+
+</body>
+
+</html>
